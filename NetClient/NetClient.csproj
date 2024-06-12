@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>NetClient</Title>
+        <Authors>Lukas Dürrenberger</Authors>
+        <ProductName>NetClient</ProductName>
+        <Copyright>Copyright © 2024 Lukas Dürrenberger</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.ServiceModel.NetNamedPipe" Version="6.2.0" />
+    </ItemGroup>
+
+</Project>
