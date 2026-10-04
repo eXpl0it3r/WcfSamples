@@ -4,5 +4,12 @@
     "config:recommended"
   ],
   "dependencyDashboard": false,
-  "minimumReleaseAge": "7 days"
+  "minimumReleaseAge": "7 days",
+  "packageRules": [
+    {
+      "description": "The sample demonstrates the .NET 6 client, newer major versions drop net6.0",
+      "matchPackageNames": ["System.ServiceModel.**"],
+      "allowedVersions": "<7"
+    }
+  ]
 }
