@@ -14,7 +14,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="System.ServiceModel.NetNamedPipe" Version="6.2.0" />
+        <PackageReference Include="System.ServiceModel.NetNamedPipe" Version="10.0.652802" />
     </ItemGroup>
 
 </Project>
